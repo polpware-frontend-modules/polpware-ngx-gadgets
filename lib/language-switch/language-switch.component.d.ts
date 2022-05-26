@@ -16,6 +16,7 @@ export declare class LanguageSwitchComponent implements OnInit, OnChanges {
     ngOnInit(): void;
     ngOnChanges(changes: SimpleChanges): void;
     change($event: any): void;
-    static ɵfac: i0.ɵɵFactoryDef<LanguageSwitchComponent, never>;
-    static ɵcmp: i0.ɵɵComponentDefWithMeta<LanguageSwitchComponent, "polp-gadget-language-switch", never, { "langOptions": "langOptions"; "initValue": "initValue"; "size": "size"; }, { "changed": "changed"; }, never, never>;
+    static ɵfac: i0.ɵɵFactoryDeclaration<LanguageSwitchComponent, never>;
+    static ɵcmp: i0.ɵɵComponentDeclaration<LanguageSwitchComponent, "polp-gadget-language-switch", never, { "langOptions": "langOptions"; "initValue": "initValue"; "size": "size"; }, { "changed": "changed"; }, never, never>;
 }
+//# sourceMappingURL=language-switch.component.d.ts.map

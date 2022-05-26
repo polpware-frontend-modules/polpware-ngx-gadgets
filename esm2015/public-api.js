@@ -1,6 +1,0 @@
-/*
- * Public API Surface of ngx-gadgets
- */
-export * from './lib/language-switch/language-switch.component';
-export * from './lib/ngx-gadgets.module';
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHVibGljLWFwaS5qcyIsInNvdXJjZVJvb3QiOiJuZzovL0Bwb2xwd2FyZS9uZ3gtZ2FkZ2V0cy8iLCJzb3VyY2VzIjpbInB1YmxpYy1hcGkudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7O0dBRUc7QUFFSCxjQUFjLGlEQUFpRCxDQUFDO0FBQ2hFLGNBQWMsMEJBQTBCLENBQUMiLCJzb3VyY2VzQ29udGVudCI6WyIvKlxuICogUHVibGljIEFQSSBTdXJmYWNlIG9mIG5neC1nYWRnZXRzXG4gKi9cblxuZXhwb3J0ICogZnJvbSAnLi9saWIvbGFuZ3VhZ2Utc3dpdGNoL2xhbmd1YWdlLXN3aXRjaC5jb21wb25lbnQnO1xuZXhwb3J0ICogZnJvbSAnLi9saWIvbmd4LWdhZGdldHMubW9kdWxlJztcbiJdfQ==
