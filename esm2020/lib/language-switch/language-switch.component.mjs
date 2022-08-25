@@ -61,10 +61,10 @@ LanguageSwitchComponent.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: Lan
         i0.ɵɵproperty("ngClass", i0.ɵɵpureFunction2(4, _c0, ctx.isSmallSize, ctx.isLargeSize))("ngModel", ctx.langValue);
         i0.ɵɵadvance(1);
         i0.ɵɵproperty("ngForOf", ctx.langOptions);
-    } }, directives: [i1.FaIconComponent, i2.SelectControlValueAccessor, i3.NgClass, i2.NgControlStatus, i2.NgModel, i3.NgForOf, i2.NgSelectOption, i2.ɵNgSelectMultipleOption], styles: ["[_nghost-%COMP%]   .form-inline[_ngcontent-%COMP%]{display:flex;flex-flow:row wrap;align-items:center}"] });
+    } }, directives: [i1.FaIconComponent, i2.SelectControlValueAccessor, i3.NgClass, i2.NgControlStatus, i2.NgModel, i3.NgForOf, i2.NgSelectOption, i2.ɵNgSelectMultipleOption], styles: ["[_nghost-%COMP%]   .form-inline[_ngcontent-%COMP%]{display:flex;flex-flow:row;align-items:center}"] });
 (function () { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassMetadata(LanguageSwitchComponent, [{
         type: Component,
-        args: [{ selector: 'polp-gadget-language-switch', template: "<div class=\"form-inline\">\n    <fa-icon [icon]=\"faGlobe\" class=\"me-1\"></fa-icon>\n    <select class=\"form-control\"\n            [ngClass]=\"{'form-control-sm': isSmallSize, 'form-control-lg': isLargeSize}\"\n            [(ngModel)]=\"langValue\"\n            (change)=\"change($event)\">\n        <option *ngFor=\"let l of langOptions\" value=\"{{l.value}}\">{{l.text}}</option>    \n    </select>\n</div>\n", styles: [":host .form-inline{display:flex;flex-flow:row wrap;align-items:center}\n"] }]
+        args: [{ selector: 'polp-gadget-language-switch', template: "<div class=\"form-inline\">\n    <fa-icon [icon]=\"faGlobe\" class=\"me-1\"></fa-icon>\n    <select class=\"form-control\"\n            [ngClass]=\"{'form-control-sm': isSmallSize, 'form-control-lg': isLargeSize}\"\n            [(ngModel)]=\"langValue\"\n            (change)=\"change($event)\">\n        <option *ngFor=\"let l of langOptions\" value=\"{{l.value}}\">{{l.text}}</option>    \n    </select>\n</div>\n", styles: [":host .form-inline{display:flex;flex-flow:row;align-items:center}\n"] }]
     }], function () { return []; }, { langOptions: [{
             type: Input
         }], initValue: [{
