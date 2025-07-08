@@ -1,14 +1,14 @@
 {
   "name": "@polpware/ngx-gadgets",
-  "version": "13.0.2",
+  "version": "14.0.0",
   "peerDependencies": {
-    "@angular/common": "^13.0.0",
-    "@angular/core": "^13.0.0",
+    "@angular/common": "^14.0.0",
+    "@angular/core": "^14.0.0",
     "@angular/forms": "^13.0.0",
-    "@fortawesome/angular-fontawesome": "~0.10.2",
-    "@fortawesome/fontawesome-svg-core": "~6.1.1",
-    "@fortawesome/free-regular-svg-icons": "~6.1.1",
-    "@fortawesome/free-solid-svg-icons": "~6.1.1"
+    "@fortawesome/angular-fontawesome": "~0.11.x",
+    "@fortawesome/fontawesome-svg-core": "~6.7.2",
+    "@fortawesome/free-regular-svg-icons": "~6.7.2",
+    "@fortawesome/free-solid-svg-icons": "~6.7.2"
   },
   "dependencies": {
     "tslib": "^2.0.0"
@@ -18,13 +18,13 @@
   "esm2020": "esm2020/polpware-ngx-gadgets.mjs",
   "fesm2020": "fesm2020/polpware-ngx-gadgets.mjs",
   "fesm2015": "fesm2015/polpware-ngx-gadgets.mjs",
-  "typings": "polpware-ngx-gadgets.d.ts",
+  "typings": "index.d.ts",
   "exports": {
     "./package.json": {
       "default": "./package.json"
     },
     ".": {
-      "types": "./polpware-ngx-gadgets.d.ts",
+      "types": "./index.d.ts",
       "esm2020": "./esm2020/polpware-ngx-gadgets.mjs",
       "es2020": "./fesm2020/polpware-ngx-gadgets.mjs",
       "es2015": "./fesm2015/polpware-ngx-gadgets.mjs",

@@ -1,12 +1,12 @@
 import * as i0 from '@angular/core';
 import { EventEmitter, Component, Input, Output, NgModule } from '@angular/core';
 import { faGlobe } from '@fortawesome/free-solid-svg-icons';
-import * as i1 from '@fortawesome/angular-fontawesome';
-import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import * as i1 from '@angular/common';
+import { CommonModule } from '@angular/common';
 import * as i2 from '@angular/forms';
 import { FormsModule } from '@angular/forms';
-import * as i3 from '@angular/common';
-import { CommonModule } from '@angular/common';
+import * as i3 from '@fortawesome/angular-fontawesome';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 function LanguageSwitchComponent_option_3_Template(rf, ctx) {
     if (rf & 1) {
@@ -71,7 +71,7 @@ LanguageSwitchComponent.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: Lan
             i0.ɵɵadvance(1);
             i0.ɵɵproperty("ngForOf", ctx.langOptions);
         }
-    }, directives: [i1.FaIconComponent, i2.SelectControlValueAccessor, i3.NgClass, i2.NgControlStatus, i2.NgModel, i3.NgForOf, i2.NgSelectOption, i2.ɵNgSelectMultipleOption], styles: ["[_nghost-%COMP%]   .form-inline[_ngcontent-%COMP%]{display:flex;flex-flow:row;align-items:center}"] });
+    }, dependencies: [i1.NgClass, i1.NgForOf, i2.NgSelectOption, i2.ɵNgSelectMultipleOption, i2.SelectControlValueAccessor, i2.NgControlStatus, i2.NgModel, i3.FaIconComponent], styles: ["[_nghost-%COMP%]   .form-inline[_ngcontent-%COMP%]{display:flex;flex-flow:row;align-items:center}"] });
 (function () {
     (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassMetadata(LanguageSwitchComponent, [{
             type: Component,
@@ -91,11 +91,9 @@ class NgxGadgetsModule {
 }
 NgxGadgetsModule.ɵfac = function NgxGadgetsModule_Factory(t) { return new (t || NgxGadgetsModule)(); };
 NgxGadgetsModule.ɵmod = /*@__PURE__*/ i0.ɵɵdefineNgModule({ type: NgxGadgetsModule });
-NgxGadgetsModule.ɵinj = /*@__PURE__*/ i0.ɵɵdefineInjector({ imports: [[
-            CommonModule,
-            FormsModule,
-            FontAwesomeModule
-        ]] });
+NgxGadgetsModule.ɵinj = /*@__PURE__*/ i0.ɵɵdefineInjector({ imports: [CommonModule,
+        FormsModule,
+        FontAwesomeModule] });
 (function () {
     (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassMetadata(NgxGadgetsModule, [{
             type: NgModule,
