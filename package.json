@@ -1,11 +1,11 @@
 {
   "name": "@polpware/ngx-gadgets",
-  "version": "16.0.0",
+  "version": "17.0.0",
   "peerDependencies": {
-    "@angular/common": "^16.0.0",
-    "@angular/core": "^16.0.0",
+    "@angular/common": "^17.0.0",
+    "@angular/core": "^17.0.0",
     "@angular/forms": "^13.0.0",
-    "@fortawesome/angular-fontawesome": "~0.13.x",
+    "@fortawesome/angular-fontawesome": "~0.14.x",
     "@fortawesome/fontawesome-svg-core": "~6.7.2",
     "@fortawesome/free-regular-svg-icons": "~6.7.2",
     "@fortawesome/free-solid-svg-icons": "~6.7.2"
