@@ -49,7 +49,7 @@ class LanguageSwitchComponent {
     change($event) {
         this.changed.emit(this.langValue);
     }
-    static { this.ɵfac = function LanguageSwitchComponent_Factory(t) { return new (t || LanguageSwitchComponent)(); }; }
+    static { this.ɵfac = function LanguageSwitchComponent_Factory(__ngFactoryType__) { return new (__ngFactoryType__ || LanguageSwitchComponent)(); }; }
     static { this.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: LanguageSwitchComponent, selectors: [["polp-gadget-language-switch"]], inputs: { langOptions: "langOptions", initValue: "initValue", size: "size" }, outputs: { changed: "changed" }, features: [i0.ɵɵNgOnChangesFeature], decls: 4, vars: 7, consts: [[1, "form-inline"], [1, "me-1", 3, "icon"], [1, "form-control", 3, "ngModelChange", "change", "ngClass", "ngModel"], [3, "value", 4, "ngFor", "ngForOf"], [3, "value"]], template: function LanguageSwitchComponent_Template(rf, ctx) { if (rf & 1) {
             i0.ɵɵelementStart(0, "div", 0);
             i0.ɵɵelement(1, "fa-icon", 1);
@@ -83,7 +83,7 @@ class LanguageSwitchComponent {
 (() => { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassDebugInfo(LanguageSwitchComponent, { className: "LanguageSwitchComponent", filePath: "lib\\language-switch\\language-switch.component.ts", lineNumber: 9 }); })();
 
 class NgxGadgetsModule {
-    static { this.ɵfac = function NgxGadgetsModule_Factory(t) { return new (t || NgxGadgetsModule)(); }; }
+    static { this.ɵfac = function NgxGadgetsModule_Factory(__ngFactoryType__) { return new (__ngFactoryType__ || NgxGadgetsModule)(); }; }
     static { this.ɵmod = /*@__PURE__*/ i0.ɵɵdefineNgModule({ type: NgxGadgetsModule }); }
     static { this.ɵinj = /*@__PURE__*/ i0.ɵɵdefineInjector({ imports: [CommonModule,
             FormsModule,
