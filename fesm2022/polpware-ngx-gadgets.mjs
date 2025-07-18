@@ -50,7 +50,7 @@ class LanguageSwitchComponent {
         this.changed.emit(this.langValue);
     }
     static { this.ɵfac = function LanguageSwitchComponent_Factory(__ngFactoryType__) { return new (__ngFactoryType__ || LanguageSwitchComponent)(); }; }
-    static { this.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: LanguageSwitchComponent, selectors: [["polp-gadget-language-switch"]], inputs: { langOptions: "langOptions", initValue: "initValue", size: "size" }, outputs: { changed: "changed" }, features: [i0.ɵɵNgOnChangesFeature], decls: 4, vars: 7, consts: [[1, "form-inline"], [1, "me-1", 3, "icon"], [1, "form-control", 3, "ngModelChange", "change", "ngClass", "ngModel"], [3, "value", 4, "ngFor", "ngForOf"], [3, "value"]], template: function LanguageSwitchComponent_Template(rf, ctx) { if (rf & 1) {
+    static { this.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: LanguageSwitchComponent, selectors: [["polp-gadget-language-switch"]], inputs: { langOptions: "langOptions", initValue: "initValue", size: "size" }, outputs: { changed: "changed" }, standalone: false, features: [i0.ɵɵNgOnChangesFeature], decls: 4, vars: 7, consts: [[1, "form-inline"], [1, "me-1", 3, "icon"], [1, "form-control", 3, "ngModelChange", "change", "ngClass", "ngModel"], [3, "value", 4, "ngFor", "ngForOf"], [3, "value"]], template: function LanguageSwitchComponent_Template(rf, ctx) { if (rf & 1) {
             i0.ɵɵelementStart(0, "div", 0);
             i0.ɵɵelement(1, "fa-icon", 1);
             i0.ɵɵelementStart(2, "select", 2);
@@ -70,7 +70,7 @@ class LanguageSwitchComponent {
 }
 (() => { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassMetadata(LanguageSwitchComponent, [{
         type: Component,
-        args: [{ selector: 'polp-gadget-language-switch', template: "<div class=\"form-inline\">\n    <fa-icon [icon]=\"faGlobe\" class=\"me-1\"></fa-icon>\n    <select class=\"form-control\"\n            [ngClass]=\"{'form-control-sm': isSmallSize, 'form-control-lg': isLargeSize}\"\n            [(ngModel)]=\"langValue\"\n            (change)=\"change($event)\">\n        <option *ngFor=\"let l of langOptions\" value=\"{{l.value}}\">{{l.text}}</option>    \n    </select>\n</div>\n", styles: [":host .form-inline{display:flex;flex-flow:row;align-items:center}\n"] }]
+        args: [{ selector: 'polp-gadget-language-switch', standalone: false, template: "<div class=\"form-inline\">\n    <fa-icon [icon]=\"faGlobe\" class=\"me-1\"></fa-icon>\n    <select class=\"form-control\"\n            [ngClass]=\"{'form-control-sm': isSmallSize, 'form-control-lg': isLargeSize}\"\n            [(ngModel)]=\"langValue\"\n            (change)=\"change($event)\">\n        <option *ngFor=\"let l of langOptions\" value=\"{{l.value}}\">{{l.text}}</option>    \n    </select>\n</div>\n", styles: [":host .form-inline{display:flex;flex-flow:row;align-items:center}\n"] }]
     }], () => [], { langOptions: [{
             type: Input
         }], initValue: [{
@@ -80,7 +80,7 @@ class LanguageSwitchComponent {
         }], changed: [{
             type: Output
         }] }); })();
-(() => { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassDebugInfo(LanguageSwitchComponent, { className: "LanguageSwitchComponent", filePath: "lib\\language-switch\\language-switch.component.ts", lineNumber: 9 }); })();
+(() => { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassDebugInfo(LanguageSwitchComponent, { className: "LanguageSwitchComponent", filePath: "lib/language-switch/language-switch.component.ts", lineNumber: 10 }); })();
 
 class NgxGadgetsModule {
     static { this.ɵfac = function NgxGadgetsModule_Factory(__ngFactoryType__) { return new (__ngFactoryType__ || NgxGadgetsModule)(); }; }
